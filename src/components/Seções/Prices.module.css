@@ -1,0 +1,21 @@
+.price {
+  color: rgb(253, 253, 253);
+  font-size: 35px;
+  margin-left: 30px;
+  text-shadow: 5px 5px 5px black;
+  padding-top: 100px;
+}
+
+.ini {
+  font-size: 20px;
+  margin: 50px 0 30px 20px;
+}
+.ini::marker {
+  display: list-item;
+  color: black;
+}
+
+.item {
+  margin-left: 100px;
+  padding: 10px;
+}

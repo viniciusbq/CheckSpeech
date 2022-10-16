@@ -1,0 +1,14 @@
+.sol {
+  color: rgb(253, 253, 253);
+  font-size: 35px;
+  margin-left: 30px;
+  padding-top: 100px;
+  text-shadow: 5px 5px 5px black;
+}
+
+.item {
+  padding-top: 30px;
+  font-size: 25px;
+  text-align: justify;
+  width: 70%;
+}

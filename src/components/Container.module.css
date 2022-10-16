@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: flex-end;
+  margin-right: 10px;
+  flex-wrap: wrap;
+}
+
+.start {
+  justify-content: flex-start;
+}
+
+.column {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.min-height {
+  min-height: 75%;
+}

@@ -1,0 +1,39 @@
+.tit {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+}
+.home {
+  margin-top: 100px;
+  font-size: 70px;
+  padding-left: 900px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bolder;
+}
+.foto {
+  position: absolute;
+  left: 60em;
+  top: 350px;
+}
+.tit span {
+  font-size: 100px;
+  color: #fdfdfd;
+  margin-top: 10px;
+  padding: 0 5px 0 5px;
+  background-color: #182544;
+  border-radius: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 30em;
+}
+
+.about {
+  padding-top: 100px;
+  font-size: 30px;
+  margin: 10px 0 0 20px;
+  color: #fafafa;
+  width: 600px;
+  text-align: justify;
+}
