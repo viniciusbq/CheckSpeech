@@ -1,37 +1,45 @@
 .form {
-  padding: 100px;
+  padding: 0px 0 300px 60px;
   display: flex;
-
-  padding-top: 200px;
 }
 
 form {
-  display: flex;
   flex-direction: column;
+  margin-left: 300px;
   font-size: 25px;
-
-  max-width: 500px;
+  max-width: 900px;
 }
-
+.foto {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
 h1 {
   font-size: 35px;
-  position: absolute;
-  top: 100px;
-  margin-left: 30px;
   color: #f9fcfc;
   text-shadow: 5px 5px 5px black;
+  margin-top: 100px;
 }
 
-input,
-textarea {
-  width: 400px;
+input {
   padding: 15px;
-  color: black;
+  color: rgb(0, 0, 0);
+  margin: 10px;
+  max-width: 1100px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border: 1px solid;
+}
+textarea {
+  padding: 15px 480px 100px 0;
 
   margin: 10px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border: 1px solid;
+}
+textarea::placeholder {
+  padding-left: 10px;
 }
 
 input:hover,
@@ -68,4 +76,17 @@ form label {
   margin-left: 20px;
   color: #ffffff;
   font-weight: bold;
+}
+
+.pol {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 110px;
+  font-size: 1px;
+  color: white;
+}
+.check {
+  height: 100px;
 }

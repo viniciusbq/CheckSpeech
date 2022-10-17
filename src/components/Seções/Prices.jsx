@@ -1,11 +1,17 @@
 import React from 'react';
 
 import style from './Prices.module.css';
+
+import img from '../../img/clients.png';
+
 const Prices = () => {
   return (
     <div className={style.price}>
-      <b>Preços</b>
+      <p>
+        <img src={img} alt="img" height="700px" />
+      </p>
       <div>
+        <b>Preços</b>
         <li className={style.ini}>
           <u>Beginner: R$29 por mês ou R$328 para uma compra anual.</u>
           <li className={style.item}>

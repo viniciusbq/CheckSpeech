@@ -1,10 +1,15 @@
 import React from 'react';
 import style from './Contact.module.css';
+
+import logo from '../../img/price.png';
+
 const Contact = () => {
   return (
-    <div>
-      <h1>Contato</h1>
+    <div className={style.foto}>
+      <img src={logo} alt="logo" height="700px" />
+
       <form className={style.form}>
+        <h1>Contato</h1>
         <label for="nome">Nome:</label>
         <input
           type="text"
@@ -13,7 +18,6 @@ const Contact = () => {
           required="required"
           name="nome"
         />
-
         <label for="fone">Fone:</label>
         <input
           type="tel"
@@ -28,7 +32,6 @@ const Contact = () => {
           placeholder="fulano@mail.com"
           name="email"
         />
-
         <textarea placeholder="Deixe sua opnião"></textarea>
 
         <input
