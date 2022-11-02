@@ -1,3 +1,7 @@
+.all {
+  display: flex;
+}
+
 .form {
   padding: 0px 0 300px 60px;
   display: flex;
@@ -10,11 +14,9 @@ form {
   max-width: 900px;
 }
 .foto {
-  display: flex;
-  flex-direction: row;
   margin-top: 100px;
 }
-h1 {
+.conta {
   font-size: 35px;
   color: #f9fcfc;
   text-shadow: 5px 5px 5px black;
@@ -32,7 +34,6 @@ input {
 }
 textarea {
   padding: 15px 480px 100px 0;
-
   margin: 10px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;

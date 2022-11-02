@@ -7,6 +7,7 @@ import Clients from './Seções/Clients';
 import Solutions from './Seções/Solutions';
 import Prices from './Seções/Prices';
 import Contact from './Seções/Contact';
+import { Amostra } from './Seções/Amostra';
 const Home = () => {
   return (
     <div className={style.tit} id="home">
@@ -28,19 +29,6 @@ const Home = () => {
         </p>
         <br />{' '}
       </div>
-
-      <section>
-        <Solutions />
-      </section>
-      <section>
-        <Clients />
-      </section>
-      <section>
-        <Prices />
-      </section>
-      <section>
-        <Contact />
-      </section>
     </div>
   );
 };

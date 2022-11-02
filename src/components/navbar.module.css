@@ -2,7 +2,7 @@
   font-size: 20px;
   position: fixed;
   width: 100%;
-  padding: 0px;
+
   background-color: #182544;
   opacity: 100%;
 }
@@ -21,6 +21,7 @@
 .list {
   display: flex;
   align-items: flex-end;
+
   list-style: none;
 }
 

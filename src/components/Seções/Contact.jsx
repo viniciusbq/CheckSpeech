@@ -5,11 +5,11 @@ import logo from '../../img/price.png';
 
 const Contact = () => {
   return (
-    <div className={style.foto}>
-      <img src={logo} alt="logo" height="700px" />
+    <div className={style.all}>
+      <img className={style.foto} src={logo} alt="logo" height="700px" />
 
       <form className={style.form}>
-        <h1>Contato</h1>
+        <h1 className={style.conta}>Contato</h1>
         <label for="nome">Nome:</label>
         <input
           type="text"

@@ -1,0 +1,48 @@
+.cont {
+  display: flex;
+  height: 950px;
+  padding-top: 80px;
+}
+
+.all {
+  margin-top: 100px;
+}
+
+.amos {
+  padding-right: 10px;
+  font-size: 35px;
+  color: #f9fcfc;
+  text-shadow: 5px 5px 5px black;
+}
+.btn_rec {
+  display: flex;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-left: 20px;
+  align-items: center;
+  width: 150px;
+  background-color: #182544;
+  color: #f9fcfc;
+  cursor: pointer;
+}
+.btn_rec:hover {
+  transition: 0.5s;
+  color: #182544;
+  background-color: #f9fcfc;
+}
+.background {
+  border: 1px solid rgb(255, 255, 255);
+  margin-top: 100px;
+  padding: 100px 20px 400px 40px;
+  height: 100px;
+  width: 50%;
+
+  background-color: rgb(36, 32, 32);
+}
+.h1_style {
+  user-select: none;
+  text-align: start;
+  color: white;
+}
